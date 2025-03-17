@@ -121,7 +121,7 @@ $$m\frac{d^2x}{dt^2} + c\frac{dx}{dt} + kt = F(t)$$
 
 Aplicando la Transformada de Laplace:
 
-$$(ms^2 + cs + k)X(s) = F(s)%%
+$$(ms^2 + cs + k)X(s) = F(s)$$
 
 Se convierte en una ecuación algebraica en s
 
