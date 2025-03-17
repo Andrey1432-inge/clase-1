@@ -151,7 +151,6 @@ Si $$x(t)=e^{−at}$$, su transformada es:
 
 $$L({e^{−at}) = \frac{1}{s+a}$$
 ​
- 
 **2. Transformada de una función senoidal:**
 
 Si $$x(t)=sin(ωt)$$, su transformada es:
