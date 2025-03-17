@@ -30,3 +30,5 @@ Estos modelan la variacion de una variable conforme pasa el tiempo, estos son ex
 1. Sistema de un tanque de agua con salida:
 
 El nivel de agua h(t) en un tanque con una válvula de salida se modela con la ecuación:
+
+$$A(dh/dt) = -C*sqrt(h)$$
