@@ -40,7 +40,7 @@ Si una población crece proporcionalmente a su tamaño:
 $$\frac{dP}{dt} = rP$$
 
 donde r es la tasa de crecimiento. La solución es $$P(t) = Po * e^{rt}$$
-## Recordando calculo diferencial
+## 2. Recordando calculo diferencial
 
 **Ejemplos**
 
@@ -59,7 +59,7 @@ Un café caliente a 80°C en una habitación a 25°C se enfría según:
 $$\frac{dT}{dt}=−k*(T−25)$$
 
 donde k es una constante de enfriamiento.
-## Caracteristecas de ecuaciones diferenciales
+## 3. Caracteristecas de ecuaciones diferenciales
 
 **1. Ecuación lineal invariante en el tiempo:**
 
@@ -72,7 +72,7 @@ Su solución describe el comportamiento de un resorte amortiguado.
 $$\frac{d^2y}{dt^2} + e^tsin(y)=0$$
 
 No se puede resolver fácilmente con métodos clásicos.
-## Sistemas lineales y no lienales
+## 4. Sistemas lineales y no lienales
 
 **1. Sistema lineal:**
 
@@ -82,17 +82,17 @@ Un amplificador de audio: La señal de salida es proporcional a la señal de ent
 
 Una brújula con fricción: La respuesta no es proporcional a la entrada debido a efectos de saturación y resistencia.
 
-## Modelamiento y validacion
+## 5. Modelamiento y validacion
 **1. Validación de un modelo de caída libre:**
 
 Se mide la caída de una pelota desde 10 m y se compara con la ecuación 
 
 $$y = \frac{1}{2}gt^2$$
- .
+
 **2. Validación de un modelo de control de temperatura:**
 
 Se compara la respuesta de un sistema de calefacción con predicciones del modelo de control PID.
-## Influencia de parametros
+## 6. Influencia de parametros
 
 Cómo los parámetros afectan la respuesta de un sistema.
 
@@ -105,3 +105,34 @@ Un péndulo sin fricción oscila indefinidamente, pero con fricción, la amplitu
 **2.Efecto de la resistencia en un circuito RLC:**
 
 Si la resistencia es alta, el circuito es sobreamortiguado y vuelve lentamente al equilibrio.
+# Trasformada de Lapalace
+## 1. Introduccion
+La Transformada de Laplace convierte ecuaciones diferenciales en ecuaciones algebraicas en el dominio de la frecuencia.
+
+Permite analizar sistemas de control, circuitos eléctricos, y vibraciones mecánicas.
+
+**Ejemplos:**
+
+**1. Sistema de masa-resorte-amortiguador**
+
+La ecuación diferencial del sistema es:
+
+$$m\frac{d^2x}{dt^2} + c\frac{dx}{dt} + kt = F(t)$$
+
+Aplicando la Transformada de Laplace:
+
+$$(ms^2 + cs + k)X(s) = F(s)%%
+
+Se convierte en una ecuación algebraica en s
+
+**2. Circuito RLC en serie:**
+
+La ecuación diferencial del voltaje es:
+ 
+$$L\fracc} + R\frac{di}{dt} + \frac{i}{c} = V(t)$$
+
+Aplicando la Transformada de Laplace:
+
+$$L\frac{d^2i}{dt^2} + R\frac{di}{dt} + \frac{i}{C} = V(s)$$
+
+Facilita la solución del sistema.
