@@ -129,10 +129,10 @@ Se convierte en una ecuación algebraica en s
 
 La ecuación diferencial del voltaje es:
  
-$$L\fracc} + R\frac{di}{dt} + \frac{i}{c} = V(t)$$
+$$L\frac{d^2i}{dt^2} + R\frac{di}{dt} + \frac{i}{c} = V(t)$$
 
 Aplicando la Transformada de Laplace:
 
-$$L\frac{d^2i}{dt^2} + R\frac{di}{dt} + \frac{i}{C} = V(s)$$
+$$(Ls^2 + Rs + \frac{i}{C})I/s) = V(s)$$
 
 Facilita la solución del sistema.
