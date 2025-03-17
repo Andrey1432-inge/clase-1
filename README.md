@@ -40,4 +40,16 @@ Si una población crece proporcionalmente a su tamaño:
 $$\frac{dP}{dt} = rP$$
 
 donde r es la tasa de crecimiento. La solución es $$P(t) = Po * e^{rt}$$
+## Recordando calculo diferencial
 
+**Ejemplos**
+
+1. Movimiento rectilíneo uniformemente acelerado:
+
+Un automóvil parte del reposo y acelera a razón de $$a=5 m/s^2.$$
+La velocidad es $$v(t)=∫5dt=5t$$
+La posición es $$x(t)=∫5tdt=\freac{5}{2}t^2$$
+2. Temperatura de un objeto (Ley de Newton del Enfriamiento):
+
+Un café caliente a 80°C en una habitación a 25°C se enfría según: $$\frac{dT}{dt}=−k*(T−25)$$
+donde k es una constante de enfriamiento.
