@@ -17,7 +17,16 @@ Si la salida del sistema depende de la historia pasada de la entrada, se le dice
 Se refiere a la parte fisica del sistema que realiza la trasformacion de entrada a salida
 
 **Ejemplo:** Un motor electrco que convierte la energia electrica en movimiento mecanico
-# 4. Proceso
+## 4. Proceso
 Es un conjunto de pasoso para lograr un objetivo en un sistema
 
 **Ejemplo:** En la industria quimica, la destilacion del petroleo es un proceso donde se separan sus componentes en diferentes fracciones
+# Modelamiento matematico de sistemas
+## 1. Modelos dinamicos
+Estos modelan la variacion de una variable conforme pasa el tiempo, estos son expresados con **ecuaciones diferenciales**
+
+**Ejemplo:**
+
+1. Sistema de un tanque de agua con salida:
+
+El nivel de agua h(t) en un tanque con una válvula de salida se modela con la ecuación:
