@@ -13,5 +13,11 @@ Si la salida del sistema depende de la historia pasada de la entrada, se le dice
 **1. Sistema estatico:** Un resistor electrico en el que la corriente depende instantaneamente del voltaje aplicado
 
 **2. Sistema dinamico:** Un circuito con condensadores e inductores, donde la respuesta depende del tiempo
+## 3. Planta
+Se refiere a la parte fisica del sistema que realiza la trasformacion de entrada a salida
 
+**Ejemplo:** Un motor electrco que convierte la energia electrica en movimiento mecanico
+# 4. Proceso
+Es un conjunto de pasoso para lograr un objetivo en un sistema
 
+**Ejemplo:** En la industria quimica, la destilacion del petroleo es un proceso donde se separan sus componentes en diferentes fracciones
