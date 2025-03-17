@@ -32,3 +32,12 @@ Estos modelan la variacion de una variable conforme pasa el tiempo, estos son ex
 El nivel de agua h(t) en un tanque con una válvula de salida se modela con la ecuación:
 
 $$A\frac{dh}{dt} = -C\sqrt{h}$$
+
+2. Modelo de crecimiento poblacional:
+
+Si una población crece proporcionalmente a su tamaño:
+
+$$\frac{dP}{dt} = rP
+
+donde r es la tasa de crecimiento. La solución es $$P(t) = Po * e\exp{rt}$$
+
