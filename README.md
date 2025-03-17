@@ -37,7 +37,7 @@ $$A\frac{dh}{dt} = -C\sqrt{h}$$
 
 Si una población crece proporcionalmente a su tamaño:
 
-$$\frac{dP}{dt} = rP
+$$\frac{dP}{dt} = rP$$
 
 donde r es la tasa de crecimiento. La solución es $$P(t) = Po * e\exp{rt}$$
 
