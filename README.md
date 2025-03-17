@@ -136,3 +136,26 @@ Aplicando la Transformada de Laplace:
 $$(Ls^2 + Rs + \frac{i}{C})I/s) = V(s)$$
 
 Facilita la solución del sistema.
+## Definicion matematica
+Se define como:
+
+$$X(s)=∫{0}{∞} x(t)e^{−st} dt
+
+Permite convertir ecuaciones diferenciales en algebraicas.
+
+**Ejemplos:**
+
+**1. Transformada de una función exponencial:**
+
+Si $$x(t)=e^{−at}, su transformada es:
+
+$$L{e^{−at} = \frac{1}{s+a}
+​
+ 
+**2. Transformada de una función senoidal:**
+
+Si $$x(t)=sin(ωt)$$, su transformada es:
+
+$$L{sin(ωt)} = \frac{ω}{s^2+w^2}$$
+​
+
