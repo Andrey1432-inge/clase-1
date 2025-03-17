@@ -27,13 +27,13 @@ Estos modelan la variacion de una variable conforme pasa el tiempo, estos son ex
 
 **Ejemplo:**
 
-1. Sistema de un tanque de agua con salida:
+**1. Sistema de un tanque de agua con salida:**
 
 El nivel de agua h(t) en un tanque con una válvula de salida se modela con la ecuación:
 
 $$A\frac{dh}{dt} = -C\sqrt{h}$$
 
-2. Modelo de crecimiento poblacional:
+**2. Modelo de crecimiento poblacional:**
 
 Si una población crece proporcionalmente a su tamaño:
 
@@ -44,7 +44,7 @@ donde r es la tasa de crecimiento. La solución es $$P(t) = Po * e^{rt}$$
 
 **Ejemplos**
 
-1. Movimiento rectilíneo uniformemente acelerado:
+**1. Movimiento rectilíneo uniformemente acelerado:**
 
 Un automóvil parte del reposo y acelera a razón de $$a=5 m/s^2.$$
 
@@ -52,7 +52,7 @@ La velocidad es $$v(t)=∫5dt=5t$$
 
 La posición es $$x(t)=∫5tdt=\frac{5}{2}t^2$$
 
-2. Temperatura de un objeto (Ley de Newton del Enfriamiento):
+**2. Temperatura de un objeto (Ley de Newton del Enfriamiento):**
 
 Un café caliente a 80°C en una habitación a 25°C se enfría según: 
 
@@ -61,14 +61,47 @@ $$\frac{dT}{dt}=−k*(T−25)$$
 donde k es una constante de enfriamiento.
 ## Caracteristecas de ecuaciones diferenciales
 
-1. Ecuación lineal invariante en el tiempo:
+**1. Ecuación lineal invariante en el tiempo:**
 
 $$\frac{d^2x}{dt^2} + 3*\frac{dx}{dt} +2x=0$$
 
 Su solución describe el comportamiento de un resorte amortiguado.
 
-2. Ecuación no lineal variante en el tiempo:
+**2. Ecuación no lineal variante en el tiempo:**
 
-$$\frac{d^2y}{dt^2} + e^tsin(y)=0%%
+$$\frac{d^2y}{dt^2} + e^tsin(y)=0$$
 
 No se puede resolver fácilmente con métodos clásicos.
+## Sistemas lineales y no lienales
+
+**1. Sistema lineal:**
+
+Un amplificador de audio: La señal de salida es proporcional a la señal de entrada.
+
+**2. Sistema no lineal:**
+
+Una brújula con fricción: La respuesta no es proporcional a la entrada debido a efectos de saturación y resistencia.
+
+## Modelamiento y validacion
+**1. Validación de un modelo de caída libre:**
+
+Se mide la caída de una pelota desde 10 m y se compara con la ecuación 
+
+$$y = \frac{1}{2}gt^2$$
+ .
+**2. Validación de un modelo de control de temperatura:**
+
+Se compara la respuesta de un sistema de calefacción con predicciones del modelo de control PID.
+## Influencia de parametros
+
+Cómo los parámetros afectan la respuesta de un sistema.
+
+**Ejemplos:**
+
+**1. Efecto de la fricción en un péndulo:**
+
+Un péndulo sin fricción oscila indefinidamente, pero con fricción, la amplitud disminuye con el tiempo.
+
+**2.Efecto de la resistencia en un circuito RLC:**
+
+Si la resistencia es alta, el circuito es sobreamortiguado y vuelve lentamente al equilibrio.
