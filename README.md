@@ -63,12 +63,12 @@ donde k es una constante de enfriamiento.
 
 1. Ecuación lineal invariante en el tiempo:
 
-$$\frac{d^2}{dt^2} + 3*\frac{dx}{dt} +2x=0$$
+$$\frac{d^2x}{dt^2} + 3*\frac{dx}{dt} +2x=0$$
 
 Su solución describe el comportamiento de un resorte amortiguado.
 
 2. Ecuación no lineal variante en el tiempo:
 
-$$\frac{d^2y}{dt^2} + e^tsin(y)=0.
+$$\frac{d^2y}{dt^2} + e^tsin(y)=0%%
 
 No se puede resolver fácilmente con métodos clásicos.
