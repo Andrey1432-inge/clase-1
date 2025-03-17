@@ -139,7 +139,7 @@ Facilita la solución del sistema.
 ## Definicion matematica
 Se define como:
 
-$$X(s)=∫{0}{∞} x(t)e^{−st} dt
+$$X(s)=∫{0}{∞} x(t)e^{−st} dt$$
 
 Permite convertir ecuaciones diferenciales en algebraicas.
 
@@ -147,9 +147,9 @@ Permite convertir ecuaciones diferenciales en algebraicas.
 
 **1. Transformada de una función exponencial:**
 
-Si $$x(t)=e^{−at}, su transformada es:
+Si $$x(t)=e^{−at}$$, su transformada es:
 
-$$L{e^{−at} = \frac{1}{s+a}
+$$L{e^{−at} = \frac{1}{s+a}$$
 ​
  
 **2. Transformada de una función senoidal:**
