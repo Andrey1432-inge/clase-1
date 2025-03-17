@@ -39,5 +39,5 @@ Si una población crece proporcionalmente a su tamaño:
 
 $$\frac{dP}{dt} = rP$$
 
-donde r es la tasa de crecimiento. La solución es $$P(t) = Po * e\exp{rt}$$
+donde r es la tasa de crecimiento. La solución es $$P(t) = Po * e^{rt}$$
 
