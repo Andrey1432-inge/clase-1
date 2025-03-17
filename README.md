@@ -156,5 +156,18 @@ $$L({e^{−at}}) = \frac{1}{s+a}$$
 Si $$x(t)=sin(ωt)$$, su transformada es:
 
 $$L({sin(ωt)}) = \frac{ω}{s^2+w^2}$$
-​
+## Tras​formada inversa de Laplace 
+Se usa para regresar de X(s) a x(t).
+
+Ejemplos:
+
+Transformada inversa de X(s)= $$\frac{5}{s+2}$$
+
+Su inversa es x(t)=5e^{-2t}
+
+Transformada inversa de X(s)= $$\frac{2s}{s^2+4}$$
+
+Usando la tabla de transformadas, la respuesta es:
+
+$$x(t)=2cos(2t)$$
 
