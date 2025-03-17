@@ -159,15 +159,82 @@ $$L({sin(ωt)}) = \frac{ω}{s^2+w^2}$$
 ## Tras​formada inversa de Laplace 
 Se usa para regresar de X(s) a x(t).
 
-Ejemplos:
+**Ejemplos:**
 
 Transformada inversa de X(s)= $$\frac{5}{s+2}$$
 
-Su inversa es x(t)=5e^{-2t}
+Su inversa es $$x(t)=5e^{-2t}$$
 
 Transformada inversa de X(s)= $$\frac{2s}{s^2+4}$$
 
 Usando la tabla de transformadas, la respuesta es:
 
 $$x(t)=2cos(2t)$$
+## Propiedades de la transformada de Laplace
+Propiedades clave: Linealidad, desplazamiento en t, desplazamiento en s, escalado en t
+
+**Ejemplos:**
+
+**1. Desplazamiento en el tiempo:**
+
+Si $$x(t)=e^{−t}$$, su transformada es X(s)=$$\frac{1}{s+1}$$
+
+Si $$x(t−3)u(t−3)$$, entonces $$X(s)e^{−3s}$$
+
+**Transformada de la derivada:**
+
+Si $$L{f(t)}=F(s)$$, entonces: $$L{f'(t)}=sF(s)−f(0)$$
+
+## Transformada de funciones comunes
+
+**Ejemplos:**
+
+**1. Escalón unitario:**
+
+$$x(t)=u(t)$$ tiene transformada: 
+
+$$L{u(t)}=\frac{1}{s}$$
+
+**Función rampa:**
+
+$$x(t)=t$$ tiene transformada:
+
+$$L{t}=\frac{1}{s^2}$$
+## Transformada de derivadas e integrales
+
+**Ejemplos:**
+
+**1. Transformada de la segunda derivada:**
+
+Si $$L{f(t)}=F(s)$$, entonces:
+
+$$L{f′′(t)}=s^2F(s)−sf(0)−f'(0)$$
+
+**2. Transformada de una integral:**
+
+Si $$L{f(t)}=F(s)$$, entonces:
+
+$$L{∫f(t)dt}=\frac{F(s)}{s}$$
+## Fracciones parciales
+
+Si el denominador de X(s) tiene raíces reales distintas, se usa la forma:
+
+$$\frac{P(s)}{(s+p1)(s+p2)...(s+pn)} = \frac{A}{s+p1} + \frac{B}{s+p2} +...+ \frac{N}{s+pn}$$
+ 
+**Ejemplo 1:**
+
+Descomponer en fracciones parciales:
+
+$$\frac{3}{(s+1)(s+2)}$$
+ 
+Se plantea:
+
+$$\frac{3}{(s+1)(s+2)} = \frac{A}{s+1} + \frac{B}{s+2}$$
+ 
+Multiplicando por (s+1)(s+2) y resolviendo el sistema de ecuaciones se obtiene $$A=−3$$, $$B=3.$$
+
+Aplicando la transformada inversa de Laplace:
+
+$$x(t)=−3e^{−t} +3e^{−2t}
+
 
