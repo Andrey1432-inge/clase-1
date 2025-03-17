@@ -54,8 +54,8 @@ La posición es $$x(t)=∫5tdt=\frac{5}{2}t^2$$
 
 2. Temperatura de un objeto (Ley de Newton del Enfriamiento):
 
-Un café caliente a 80°C en una habitación a 25°C se enfría según: $$\frac{dT}
+Un café caliente a 80°C en una habitación a 25°C se enfría según: 
 
-{dt}=−k*(T−25)$$
+$$\frac{dT}{dt}=−k*(T−25)$$
 
 donde k es una constante de enfriamiento.
